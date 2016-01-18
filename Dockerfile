@@ -1,4 +1,4 @@
 FROM java:8
 EXPOSE 8080
-CMD java -jar /livelessons-cloud-docker.jar
-ADD target/livelessons-cloud-docker-1.0.0-SNAPSHOT.jar /livelessons-cloud-docker.jar
+CMD java -jar /java-docker.jar
+ADD target/java-docker-0.0.1-SNAPSHOT.jar /java-docker.jar
