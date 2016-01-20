@@ -8,7 +8,12 @@ public class ExampleController {
 
 	@RequestMapping("/")
 	public String hello() {
-		return "Hello World!";
+		return "Hello Worl2!";
 	}
+
+  @RequestMapping("/hello1")
+  public String hello2() {
+    return "Hello Worl2!";
+  }
 
 }
